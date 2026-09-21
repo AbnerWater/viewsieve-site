@@ -4,4 +4,4 @@ Public static website: https://abnerwater.github.io/viewsieve-site/
 
 Contact: abnerwater@outlook.com
 
-This repository contains generated website files only. Current free features remain available; paid plans are not open for purchase.
+This repository contains generated website files only. ViewSieve provides content cleanup for YouTube, Instagram and TikTok. Published plan prices describe future subscription entitlements; purchases remain closed.
