@@ -1,0 +1,52 @@
+name: Bug report / 问题反馈
+description: Report unexpected behavior using a redacted example / 使用脱敏示例反馈问题
+title: '[Bug]: '
+body:
+  - type: markdown
+    attributes:
+      value: 'Issues are public. Use fictional examples and redact screenshots. Do not upload rules, private content, accounts, login links, tokens or payment details. 问题公开可见；请勿上传规则、私密正文、账号、登录链接、凭据或支付资料。'
+  - type: input
+    id: version
+    attributes:
+      label: ViewSieve version / 扩展版本
+      placeholder: Shown under Preferences & help / 见偏好与帮助
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Chrome version and OS / Chrome 版本及系统
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Affected area / 问题范围
+      multiple: true
+      options:
+        - YouTube
+        - Instagram
+        - TikTok
+        - Settings or popup / 设置或快捷面板
+        - Chrome configuration sync / 配置同步
+        - Website / 官网
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      description: Use fictional keywords and author names; omit private URLs. 请使用虚构词和作者，不提供私人链接。
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior / 预期与实际表现
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Optional redacted screenshot or diagnostic summary / 可选脱敏截图或诊断摘要
+      description: No automatic data upload. Check the text and image before posting. 不会自动上传数据，提交前请自行检查。

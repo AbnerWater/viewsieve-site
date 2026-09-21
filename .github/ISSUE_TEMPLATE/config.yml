@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Billing, privacy & security / 付款、隐私与安全
+    url: mailto:abnerwater@outlook.com
+    about: Contact privately. Never post passwords, payment details or login links. 请通过邮箱私密联系。
+  - name: Help / 使用帮助
+    url: https://abnerwater.github.io/viewsieve-site/help/
+    about: Supported features, subscriptions and common questions / 支持范围、订阅及常见问题。

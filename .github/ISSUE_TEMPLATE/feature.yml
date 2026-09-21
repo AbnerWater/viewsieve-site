@@ -1,0 +1,19 @@
+name: Feature request / 功能建议
+description: Suggest a focused improvement / 提出改进建议
+title: '[Feature]: '
+body:
+  - type: markdown
+    attributes:
+      value: 'This is public. Use fictional examples and omit personal, payment and authentication data. 此处公开可见，请使用虚构示例并去除个人、支付及登录信息。'
+  - type: textarea
+    id: need
+    attributes:
+      label: What problem would this solve? / 希望解决什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested behavior / 期望的使用方式
+    validations:
+      required: true
