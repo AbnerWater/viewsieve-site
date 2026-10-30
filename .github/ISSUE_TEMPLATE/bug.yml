@@ -25,6 +25,7 @@ body:
       multiple: true
       options:
         - YouTube
+        - Facebook
         - Instagram
         - TikTok
         - Settings or popup / 设置或快捷面板

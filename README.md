@@ -2,7 +2,7 @@
 
 [Website](https://abnerwater.github.io/viewsieve-site/) · [Report an issue](https://github.com/AbnerWater/viewsieve-site/issues/new/choose) · [Privacy](https://abnerwater.github.io/viewsieve-site/privacy/)
 
-ViewSieve helps filter unwanted content on YouTube, Instagram and TikTok. This public repository hosts the generated website and official feedback templates, not the extension source code.
+ViewSieve helps filter unwanted content on YouTube, Facebook, Instagram and TikTok. Facebook content cleanup covers desktop Home and Reels; other pages have limited or no support. This public repository hosts the generated website and official feedback templates, not the extension source code.
 
 ## Get help / 获取支持
 
